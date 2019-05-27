@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  easydoggie:
+  - apiVersion: v1
+    appVersion: "0.1"
+    created: 2019-05-27T14:42:40.1825186+09:00
+    description: A Helm chart for Kubernetes
+    digest: 590c62db0bfd34d7612326983931d544346e0300b099c341722f9a09337a46bd
+    name: easydoggie
+    urls:
+    - easydoggie/easydoggie-0.1.4.tgz
+    version: 0.1.4
   gitea:
   - apiVersion: v1
     appVersion: 1.8.1
-    created: 2019-05-27T14:36:48.8635168+09:00
+    created: 2019-05-27T14:42:40.1850783+09:00
     description: A Helm chart for Kubernetes
     digest: 1a4da90f7ae31ac0071eabe8ad234e74ff71900aabb554654a77887d6e9d30fb
     name: gitea
@@ -13,7 +23,7 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: nginx 1.16.0 unit 1.8.0
-    created: 2019-05-27T14:36:48.8694913+09:00
+    created: 2019-05-27T14:42:40.1876052+09:00
     description: nginx and nginx unit chart
     digest: 037f4aa019be96c387941700ae36585a4a4496798f999a78aa0bc30a4a04c230
     name: nginx
@@ -23,7 +33,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.24.1
-    created: 2019-05-27T14:36:48.8831533+09:00
+    created: 2019-05-27T14:42:40.1947503+09:00
     description: A Helm chart for Kubernetes
     digest: 0b66bd877a894774b5dec482ce8d46a22f1f88769cf349a92f3613ccbf6741cf
     name: nginx-ingress
@@ -33,7 +43,7 @@ entries:
   nginx-unit:
   - apiVersion: v1
     appVersion: nginx unit 1.8.0-full
-    created: 2019-05-27T14:36:48.885859+09:00
+    created: 2019-05-27T14:42:40.2023921+09:00
     description: A Helm chart for Kubernetes
     digest: d91adbe4c07bce8d550222df52b000033490ce09832fcf9c0c83cd2f76107711
     name: nginx-unit
@@ -43,11 +53,11 @@ entries:
   node:
   - apiVersion: v1
     appVersion: node 12.3.1
-    created: 2019-05-27T14:36:48.8882616+09:00
+    created: 2019-05-27T14:42:40.2086424+09:00
     description: Helm Chart for Node
     digest: a0306ecf3326308a68e717cbd944d3fd4ab3de663a929baf6d346c1a7d1cc500
     name: node
     urls:
     - node/node-0.1.3.tgz
     version: 0.1.3
-generated: 2019-05-27T14:36:48.857179+09:00
+generated: 2019-05-27T14:42:40.1691497+09:00
