@@ -3,7 +3,16 @@ entries:
   easydoggie:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2019-05-28T16:06:17.5676988+09:00
+    created: 2019-05-29T14:33:19.3278154+09:00
+    description: EasyDoggie all in package.
+    digest: 034778254c6c5f1b62dabb7670e78b40a0cecdd640f44fd28ba86eca2a84952c
+    name: easydoggie
+    urls:
+    - easydoggie/easydoggie-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: "0.1"
+    created: 2019-05-29T14:33:19.3174751+09:00
     description: EasyDoggie all in package.
     digest: a06006f6282cc4f6dcb0e22a408290a55e1a7c8b8e2cbd5c8033f7537a69b735
     name: easydoggie
@@ -12,7 +21,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2019-05-28T16:06:17.545065+09:00
+    created: 2019-05-29T14:33:19.3026827+09:00
     description: A Helm chart for Kubernetes
     digest: 590c62db0bfd34d7612326983931d544346e0300b099c341722f9a09337a46bd
     name: easydoggie
@@ -22,7 +31,7 @@ entries:
   gitea:
   - apiVersion: v1
     appVersion: 1.8.1
-    created: 2019-05-28T16:06:17.5712999+09:00
+    created: 2019-05-29T14:33:19.334576+09:00
     description: A Helm chart for Kubernetes
     digest: 1a4da90f7ae31ac0071eabe8ad234e74ff71900aabb554654a77887d6e9d30fb
     name: gitea
@@ -32,7 +41,7 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: nginx 1.16.0 unit 1.8.0
-    created: 2019-05-28T16:06:17.5754779+09:00
+    created: 2019-05-29T14:33:19.338042+09:00
     description: nginx and nginx unit chart
     digest: 037f4aa019be96c387941700ae36585a4a4496798f999a78aa0bc30a4a04c230
     name: nginx
@@ -42,7 +51,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.24.1
-    created: 2019-05-28T16:06:17.5874555+09:00
+    created: 2019-05-29T14:33:19.3462044+09:00
     description: A Helm chart for Kubernetes
     digest: 0b66bd877a894774b5dec482ce8d46a22f1f88769cf349a92f3613ccbf6741cf
     name: nginx-ingress
@@ -52,7 +61,7 @@ entries:
   nginx-unit:
   - apiVersion: v1
     appVersion: nginx unit 1.8.0-full
-    created: 2019-05-28T16:06:17.5984603+09:00
+    created: 2019-05-29T14:33:19.3530682+09:00
     description: A Helm chart for Kubernetes
     digest: ae167c4ea248f47c08d1cc64868f2d38fc2a35abf77c301b941bbeda75d7d296
     name: nginx-unit
@@ -61,7 +70,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: nginx unit 1.8.0-full
-    created: 2019-05-28T16:06:17.5944938+09:00
+    created: 2019-05-29T14:33:19.349695+09:00
     description: A Helm chart for Kubernetes
     digest: d91adbe4c07bce8d550222df52b000033490ce09832fcf9c0c83cd2f76107711
     name: nginx-unit
@@ -71,7 +80,7 @@ entries:
   node:
   - apiVersion: v1
     appVersion: node 12.3.1
-    created: 2019-05-28T16:06:17.6021043+09:00
+    created: 2019-05-29T14:33:19.3562032+09:00
     description: Helm Chart for Node
     digest: a0306ecf3326308a68e717cbd944d3fd4ab3de663a929baf6d346c1a7d1cc500
     name: node
@@ -81,11 +90,20 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: 2019-05-28T16:06:17.6122592+09:00
+    created: 2019-05-29T14:33:19.3649903+09:00
+    description: Chart of Redis
+    digest: ef612e32fd7df1eb675e8a1a3c6f8c737abf91477f12f6374c2db338023e2333
+    name: redis
+    urls:
+    - redis/redis-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 5.0.5
+    created: 2019-05-29T14:33:19.3613034+09:00
     description: Chart of Redis
     digest: 74a1c640e1ca71343c00b8a7db4948229e8d9eee5786f6d2cc0ff86a83fdd6a6
     name: redis
     urls:
     - redis/redis-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-28T16:06:17.5366191+09:00
+generated: 2019-05-29T14:33:19.2911609+09:00
