@@ -3,7 +3,7 @@ entries:
   adminer:
   - apiVersion: v1
     appVersion: Adminer 4.7.1
-    created: 2019-06-18T14:39:10.4723258+09:00
+    created: 2019-06-20T13:58:53.9494785+09:00
     description: Adminer for EasyDoggie
     digest: 9fbcbd1f47d5c7f1e5d00684aab428c773f86d1b4e618585c025c62eeb67fb03
     name: adminer
@@ -13,7 +13,7 @@ entries:
   drone:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2019-06-18T14:39:10.4794292+09:00
+    created: 2019-06-20T13:58:53.9568414+09:00
     description: Drone is a Continuous Delivery system
     digest: cf1c269bf9e01098c9dae7eedc50f72da515209290870cbf7524a83707d4dcd9
     name: drone
@@ -23,16 +23,16 @@ entries:
   easydoggie:
   - apiVersion: v1
     appVersion: 0.1.14
-    created: 2019-06-18T14:39:10.6109805+09:00
+    created: 2019-06-20T13:58:54.144722+09:00
     description: EasyDoggie all in package.
-    digest: bf4be6d4697e4027479d49f04fcf35b404c67d5761cc00fc2f247bfd4c9e32f2
+    digest: 2bdaba0a06c412ec8b57bd3a9489767bb2f1dfff50fee6dbe5cafc784b213ce7
     name: easydoggie
     urls:
     - easydoggie/easydoggie-0.1.14.tgz
     version: 0.1.14
   - apiVersion: v1
     appVersion: 0.1.13
-    created: 2019-06-18T14:39:10.5803929+09:00
+    created: 2019-06-20T13:58:54.0994422+09:00
     description: EasyDoggie all in package.
     digest: 568608a449da374ae005b1b7725e485692eb0cf554e5fa520af958dc8fbab2c4
     name: easydoggie
@@ -41,7 +41,7 @@ entries:
     version: 0.1.13
   - apiVersion: v1
     appVersion: 0.1.12
-    created: 2019-06-18T14:39:10.5511836+09:00
+    created: 2019-06-20T13:58:54.0533008+09:00
     description: EasyDoggie all in package.
     digest: cbbd90e1137ffecd20c9e5eb4b244383429dfa0a603b6ddec0775963547a64b6
     name: easydoggie
@@ -50,7 +50,7 @@ entries:
     version: 0.1.12
   - apiVersion: v1
     appVersion: 0.1.10
-    created: 2019-06-18T14:39:10.5168814+09:00
+    created: 2019-06-20T13:58:53.9985614+09:00
     description: EasyDoggie all in package.
     digest: 17b47a4fa4c3d4f7c241eafda23ee59a9b6cf110b42a542d0fa659d77098aebc
     name: easydoggie
@@ -60,7 +60,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.1.0
-    created: 2019-06-18T14:39:10.6159586+09:00
+    created: 2019-06-20T13:58:54.1567843+09:00
     description: Chart of Elasticsearch
     digest: 8173513b7a16f3b26f74ab103aa996defc9376ee44886aca3402a7d0e017968e
     name: elasticsearch
@@ -70,7 +70,7 @@ entries:
   fluentd:
   - apiVersion: v1
     appVersion: 1.4.2
-    created: 2019-06-18T14:39:10.6192686+09:00
+    created: 2019-06-20T13:58:54.1606766+09:00
     description: Helm chart of Fluentd
     digest: c0399f80c95e743bbf6722630c4adb9c188fd206459b1a6df748fe83690f983e
     name: fluentd
@@ -80,7 +80,7 @@ entries:
   gitea:
   - apiVersion: v1
     appVersion: 1.8.3
-    created: 2019-06-18T14:39:10.628986+09:00
+    created: 2019-06-20T13:58:54.1738785+09:00
     description: Gitea for Easydoggie
     digest: f7dda1637915e2c071c3df713d2fe1328ba319b1c3533fe9cad721af5125ec7a
     name: gitea
@@ -89,7 +89,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 1.8.1
-    created: 2019-06-18T14:39:10.6261177+09:00
+    created: 2019-06-20T13:58:54.169299+09:00
     description: Gitea for Easydoggie
     digest: aa9aa48b8cfa57a9ba6d72bda33540d1551daff593114bcedb4d0e7c184459c0
     name: gitea
@@ -98,17 +98,27 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 1.8.1
-    created: 2019-06-18T14:39:10.6227075+09:00
+    created: 2019-06-20T13:58:54.164841+09:00
     description: A Helm chart for Kubernetes
     digest: 1a4da90f7ae31ac0071eabe8ad234e74ff71900aabb554654a77887d6e9d30fb
     name: gitea
     urls:
     - gitea/gitea-0.1.0.tgz
     version: 0.1.0
+  ingress:
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: 2019-06-20T13:58:54.1819637+09:00
+    description: Helm Chart of Nginx Ingress
+    digest: 0dd2379eeb12660dfb70faa7ed0756e7ec0048a81eb0b550c0821339d5b41790
+    name: ingress
+    urls:
+    - ingress/ingress-0.1.3.tgz
+    version: 0.1.3
   kibana:
   - apiVersion: v1
     appVersion: 7.1.0
-    created: 2019-06-18T14:39:10.6356145+09:00
+    created: 2019-06-20T13:58:54.1975903+09:00
     description: Chart of Kibana
     digest: bf56d35685df9201bff96994f552cad872712d33d92f0941fa4c90707583ee94
     name: kibana
@@ -117,7 +127,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 7.1.0
-    created: 2019-06-18T14:39:10.6330091+09:00
+    created: 2019-06-20T13:58:54.1916733+09:00
     description: Chart of Kibana
     digest: 8c5a7e8dd90ea9fda7e5ca6c35b6ee5682a44a186ec9861eea377b17163ac021
     name: kibana
@@ -127,7 +137,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: MySQL 8.0.16
-    created: 2019-06-18T14:39:10.6396186+09:00
+    created: 2019-06-20T13:58:54.202909+09:00
     description: MySQL for EasyDoggie
     digest: 5465fbe82adf26cde715e158cee659c129d96c10911630f295076e6de6639f1a
     name: mysql
@@ -137,7 +147,7 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: nginx 1.16.0 unit 1.9.0
-    created: 2019-06-18T14:39:10.6491324+09:00
+    created: 2019-06-20T13:58:54.211731+09:00
     description: nginx and nginx unit chart
     digest: ec8d4df070a38a6921f43e3069a7dca0c2623eeb91e974b1a7cfac98040ac9f2
     name: nginx
@@ -146,7 +156,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: nginx 1.16.0 unit 1.8.0
-    created: 2019-06-18T14:39:10.6430356+09:00
+    created: 2019-06-20T13:58:54.2076189+09:00
     description: nginx and nginx unit chart
     digest: 037f4aa019be96c387941700ae36585a4a4496798f999a78aa0bc30a4a04c230
     name: nginx
@@ -156,7 +166,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.24.1
-    created: 2019-06-18T14:39:10.6541748+09:00
+    created: 2019-06-20T13:58:54.2162209+09:00
     description: Helm Chart of Nginx Ingress
     digest: 7541907a079aadeb51694b436a30e6a9fbc88ca99c2dcc9ee883c4fdd70b0ee1
     name: nginx-ingress
@@ -166,7 +176,7 @@ entries:
   node:
   - apiVersion: v1
     appVersion: node 10.16.0
-    created: 2019-06-18T14:39:10.6622332+09:00
+    created: 2019-06-20T13:58:54.2254354+09:00
     description: Helm Chart for Node
     digest: d63cd883a0df830286b71050b6c12e2b2e0be4a221780bfb0669709336b6743d
     name: node
@@ -175,7 +185,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: node 12.3.1
-    created: 2019-06-18T14:39:10.6580616+09:00
+    created: 2019-06-20T13:58:54.220099+09:00
     description: Helm Chart for Node
     digest: a0306ecf3326308a68e717cbd944d3fd4ab3de663a929baf6d346c1a7d1cc500
     name: node
@@ -185,7 +195,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 0.30.1
-    created: 2019-06-18T14:39:10.6974805+09:00
+    created: 2019-06-20T13:58:54.2563993+09:00
     description: Prometheus Operator
     digest: add249b1bb00f69e1fd07e762d72e1979e2b63cfd8f1e037a3bac0cfc9c7f676
     name: prometheus
@@ -194,7 +204,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.30.1
-    created: 2019-06-18T14:39:10.6836518+09:00
+    created: 2019-06-20T13:58:54.2409564+09:00
     description: Prometheus Operator
     digest: 4de52e9fbee470fce83520169867c8e8606c0c80e49911f28fcd3559d9d49dcf
     name: prometheus
@@ -204,7 +214,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: 2019-06-18T14:39:10.7095724+09:00
+    created: 2019-06-20T13:58:54.2664465+09:00
     description: Chart of Redis
     digest: ef612e32fd7df1eb675e8a1a3c6f8c737abf91477f12f6374c2db338023e2333
     name: redis
@@ -213,11 +223,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 5.0.5
-    created: 2019-06-18T14:39:10.7044554+09:00
+    created: 2019-06-20T13:58:54.2613519+09:00
     description: Chart of Redis
     digest: 74a1c640e1ca71343c00b8a7db4948229e8d9eee5786f6d2cc0ff86a83fdd6a6
     name: redis
     urls:
     - redis/redis-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-18T14:39:10.4650878+09:00
+generated: 2019-06-20T13:58:53.9398379+09:00
